@@ -1,1 +1,10 @@
-{"name":"AI Agent","short_name":"Agent","start_url":"./index.html","display":"standalone","background_color":"#06130f","theme_color":"#071a13","lang":"ar","dir":"rtl"}
+{
+  "name":"AI Agent",
+  "short_name":"Agent",
+  "start_url":"./index.html",
+  "display":"standalone",
+  "background_color":"#06130f",
+  "theme_color":"#071a13",
+  "lang":"ar",
+  "dir":"rtl"
+}

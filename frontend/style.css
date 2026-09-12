@@ -1,0 +1,19 @@
+*{box-sizing:border-box}
+body{margin:0;background:#06130f;color:#fff;font-family:Arial,sans-serif}
+.app{height:100vh;display:flex;flex-direction:column;max-width:900px;margin:auto;background:#071a13}
+.topbar{padding:18px;border-bottom:1px solid #17352b;background:#081f17}
+.topbar h1{margin:0 0 5px;font-size:22px}
+.status{font-size:13px;color:#9fb5ac}
+.status i{display:inline-block;width:8px;height:8px;background:#25d366;border-radius:50%;margin-left:5px}
+.messages{flex:1;overflow-y:auto;padding:20px}
+.message{display:flex;margin-bottom:15px}
+.message.user{justify-content:flex-start}
+.message.agent{justify-content:flex-end}
+.bubble{max-width:85%;padding:13px 16px;border-radius:16px;line-height:1.7;white-space:pre-wrap}
+.user .bubble{background:#0d4735}
+.agent .bubble{background:#123027}
+.input-area{display:flex;gap:8px;padding:12px;border-top:1px solid #17352b;background:#081f17}
+textarea{flex:1;resize:none;border:0;outline:none;border-radius:12px;padding:13px;background:#102b22;color:white;font-size:16px}
+button{border:0;border-radius:12px;padding:0 20px;background:#20a66a;color:white;font-weight:bold;cursor:pointer}
+button:disabled{opacity:.5}
+.typing{display:none;padding:0 20px 10px;color:#8ba79c;font-size:13px}

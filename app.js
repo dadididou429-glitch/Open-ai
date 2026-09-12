@@ -1,4 +1,4 @@
-const API_URL = "https://YOUR-BACKEND-URL.onrender.com";
+const API_URL = "https://open-ai-lv2s.onrender.com";
 
 const form = document.getElementById("chatForm");
 const input = document.getElementById("messageInput");
